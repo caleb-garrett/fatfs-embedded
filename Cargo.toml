@@ -3,6 +3,13 @@ name = "fatfs-embedded"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+license-file = "LICENSE"
+description = "Rust bindings for the popular embedded FatFs library."
+authors = ["Caleb Garrett"]
+readme = "README.md"
+repository = "https://github.com/caleb-garrett/fatfs-embedded"
+keywords = ["embedded", "no_std", "fatfs", "embassy"]
+categories = ["embedded", "filesystem", "external-ffi-bindings", "no-std"]
 
 [build-dependencies]
 cc = "1"
